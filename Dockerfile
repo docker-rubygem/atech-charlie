@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.1.4
+ENV VERSION=0.3.0
 
 RUN gem install atech-charlie --version ${VERSION} --no-format-exec
 
